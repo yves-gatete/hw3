@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <?xml-stylesheet href="stylesheet.css" type="text/css"?>
+
+<SongList>
+	<CD>
+		<Song> Needles And Pins</Song>
+		<Artist> Smokie</Artist>
+		<Genre> Rock </Genre>
+		<Year> 1977 </Year>
+	</CD>
+
+	<CD>	
+		<Song> So, You Want To Be A Rock'n'Roll Star </Song>
+		<Artist> The Byrds </Artist>
+		<Genre> Rock </Genre>
+		<Year> 1967 </Year> 
+	</CD>
+
+	<CD>
+		<Song> Freebird </Song>
+		<Artist> Lynyrd Skynyrd </Artist>
+		<Genre> Rock </Genre>
+		<Year> 1973 </Year>
+	</CD>
+
+	<CD>	
+		<Song> Like Someone In Love </Song>
+		<Artist> Bill Evans</Artist>
+		<Genre> Jazz </Genre>
+		<Year> 1983 </Year>
+	</CD>
+
+	<CD>
+		<Song> Take The A Train </Song>
+		<Artist> Ella Fitzgerald, Duke Ellington</Artist>
+		<Genre> Jazz </Genre>
+		<Year> 1972 </Year>		
+	</CD>
+
+	<CD>
+		<Song> Let There Be Love </Song>
+		<Artist> Nat King Cole, George Shearing</Artist>
+		<Genre> Jazz </Genre>
+		<Year> 1972 </Year>
+	</CD>
+
+	<CD>
+		<Song> Uptown Funk </Song>
+		<Artist> Mark Ronson, Bruno Mars</Artist>
+		<Genre> Funk, Boogie, Pop </Genre>
+		<Year> 2014 </Year>
+	</CD>
+
+	<CD>	
+		<Song> Someday </Song>
+		<Artist> The Strokes</Artist>
+		<Genre> Indie </Genre>
+		<Year> 2001 </Year>
+		
+	</CD>
+
+	<CD>
+		<Song> Black Magic </Song>
+		<Artist> The Amazons</Artist>
+		<Genre> Indie </Genre>
+		<Year> 2017 </Year>
+	</CD>
+
+	<CD>
+		<Song> Higher Ground </Song>
+		<Artist> Stevie Wonder</Artist>
+		<Genre> Pop </Genre>
+		<Year> 1973 </Year>
+	</CD>
+
+</SongList>

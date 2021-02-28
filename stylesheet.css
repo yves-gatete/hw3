@@ -1,0 +1,44 @@
+
+CD{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #DACFE5;
+  width: 300px;
+  display: block;
+  padding: 10pt;
+  border: 1px solid #0D3427;
+
+  text-align: left;
+
+  margin-left: auto;
+  margin-right: auto
+}
+Song {
+    display: block;
+    color: #0D3427;
+    font-weight: bold;
+    font-size: 140%;
+    margin-bottom: 3%;
+
+  }
+
+Artist {
+    display: block;
+    color: #0D3427;
+    font-size: 90%;
+    font-weight: bold;
+    margin-top: 3%;
+  }
+
+Genre {
+    display: block;
+    font-size: 90%;
+    font-style: italic;
+    color: #523819; 
+  }
+
+
+Year {
+    display: block;
+    font-size: 90%
+    color: #523819; 
+}
