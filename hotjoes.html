@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Joe's Hotdogs </title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+	<style>
+		img {	
+  		display: block;
+  		margin-left: auto;
+  		margin-right: auto;
+		}
+		h1{
+		    color: #606060;
+		    text-align: center;
+		}
+		h2{
+		    color: #606060;
+		}
+	</style>
+
+</head>
+<body>
+	<img src="bImage.jpeg" width="500">
+	<h1> Thanks for ordering with Joe's Hotdogs</h1>
+	<h2> Below is the summary of your order: </h2>
+	<div class="row">
+	  <div class="column">
+	    <h3> Items Ordered </h3>
+			<ul>
+				<li>Hotdogs</li>
+				<li>French fries</li>
+				<li>Drinks</li>
+			</ul>
+	  </div>
+	
+	<script language = "javascript">
+		hotdogs = prompt("Please enter the number of hotdogs: ", 0);
+		fries = prompt("Please enter the quantity of fries: ", 0);
+		drinks = prompt("Please enter the number of drinks: ", 0);
+
+
+		let HOTDOGS_UNIT_PRICE = 3.25;
+		let FRIES_UNIT_PRICE = 2.00;
+		let DRINKS_UNIT_PRICE = 1.50;
+		let DISCOUNT = 0.2;
+		let TAX = 0.0625;
+
+		hotdogs = parseFloat(hotdogs);
+		fries = parseFloat(fries);
+		drinks = parseFloat(drinks);
+
+		total_hotdogs = hotdogs * HOTDOGS_UNIT_PRICE;
+		total_fries = fries * FRIES_UNIT_PRICE;
+		total_drinks = drinks * DRINKS_UNIT_PRICE;
+
+		let subtotal = (total_hotdogs) + (total_fries) + (total_drinks);
+
+		if (subtotal >= 20.00){
+			new_subtotal = subtotal * 0.8;
+		}
+		else{
+			new_subtotal = subtotal;
+		}
+
+		
+		subtotal = subtotal.toFixed(2);
+		new_subtotal = parseFloat(new_subtotal.toFixed(2));
+
+		let discount = subtotal - new_subtotal;
+		discount = parseFloat(discount.toFixed(2));
+
+		let tax = new_subtotal * TAX;
+		tax = parseFloat(tax.toFixed(2));
+
+		let total = new_subtotal + tax - discount;
+		total = parseFloat(total.toFixed(2));
+
+
+		// Display order
+
+		let str = "Receipt";
+		document.write(str.bold());
+		document.write("<br>");
+		document.write(hotdogs," Hotdogs:..............................$", total_hotdogs, "<br>");
+		document.write(fries, " French Fries:.......................$", total_fries, "<br>");
+		document.write(drinks," Drinks:..................................$", total_drinks, "<br>");
+		document.write("<br>");
+		document.write("Subtotal:.............................$", subtotal, "<br>");
+		document.write("Discount:............................- $", discount, "<br>");
+		document.write("Tax:...................................$", tax, "<br>");
+		document.write("TOTAL:............................ $", total);
+
+	</script>
+
+
+
+
+</body>
+</html>
